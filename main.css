@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    display: flex;
+    background-image: url(happy-raksha-bandhan-rakhi-latest-awesome-hd-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+        
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    background-image:url(sd.png);
+    margin: 0;
+    margin-top: 1px;
+    padding: 15px;
+    width: 89cap;
+    text-align: center;
+    border: double black;
+    text-decoration: underline double;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    animation: pop 0.8s ease;
+    animation-iteration-count: infinite;   
+}
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.bhau{
+    padding:30px;
+}
+
+.slider {       
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    height: 700px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    
+    width: 100%;
+    border-radius: 10px;
+}
+
+.navigation {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.prev, .next {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: x-large;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
